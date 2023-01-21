@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+
+    <div class="full-img" id="fullImgBox">
+        <img src="images/Structured Cabling/SC10.jpg" id="fullImg">
+        <span onclick="closeFullimg()">X</span>
+    </div>
+        <div class="container"></div>
+            <h1>STRUCTURED CABLING</h1>
+            <div class="img-gallery">
+                <img src="images/Structured Cabling/SC1.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Structured Cabling/SC2.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Structured Cabling/SC3.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Structured Cabling/SC4.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Structured Cabling/SC5.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Structured Cabling/SC6.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Structured Cabling/SC7.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Structured Cabling/SC8.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Structured Cabling/SC9.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Structured Cabling/SC10.jpg" onclick="openFullimg(this.src)">               
+            </div>
+        </div>  
+    </div> 
+    <br>
+    <br>
+    <hr>
+    <br>
+    </div>
+        <div class="container"></div>
+            <h1>CCTV INSTALLATION</h1>
+            <div class="img-gallery">
+                <img src="images/CCTV Installation/CCTV1.jpg" onclick="openFullimg(this.src)">
+                <img src="images/CCTV Installation/CCTV2.jpg" onclick="openFullimg(this.src)">
+                <img src="images/CCTV Installation//CCTV3.jpg" onclick="openFullimg(this.src)">
+                <img src="images/CCTV Installation/CCTV4.jpg" onclick="openFullimg(this.src)">
+                <img src="images/CCTV Installation/CCTV5.jpg" onclick="openFullimg(this.src)">
+                <img src="images/CCTV Installation/CCTV6.jpg" onclick="openFullimg(this.src)">
+                <img src="images/CCTV Installation/CCTV7.jpg" onclick="openFullimg(this.src)">                
+            </div>
+        </div>  
+    </div> 
+    <br>
+    <br>
+    <hr>
+    <br>
+    </div>
+        <div class="container"></div>
+            <h1>BIOMETRIC AND DOOR ACCESS</h1>
+            <div class="img-gallery">
+                <img src="images/Biometric and Door Access/Access1.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Biometric and Door Access/Access2.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Biometric and Door Access/Access3.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Biometric and Door Access/Access4.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Biometric and Door Access/Access5.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Biometric and Door Access/Access6.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Biometric and Door Access/Access7.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Biometric and Door Access/Access8.jpg" onclick="openFullimg(this.src)">
+                <img src="images/Biometric and Door Access/Access9.jpg" onclick="openFullimg(this.src)">           
+            </div>
+        </div>  
+    </div> 
+        
+<script>
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullimg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+
+    function closeFullimg(){
+        fullImgBox.style.display = "none";
+    }
+
+</script>
+
+</body>
+</html>
